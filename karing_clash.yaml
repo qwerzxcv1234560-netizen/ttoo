@@ -1,0 +1,2497 @@
+mixed-port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+  - name: "🌐 域名-ttyy-cw8.pages.dev"
+    type: trojan
+    server: ttyy-cw8.pages.dev
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTYy-CW8.pages.DeV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiTlJxQXM2QXhzUmpHeDVUIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🌐 Speedtest"
+    type: trojan
+    server: www.speedtest.net
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTyy-Cw8.PaGES.Dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoieUNuS2Z2UnZ5NFhsQSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "☁️ CF-172.66.46.254"
+    type: trojan
+    server: 172.66.46.254
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTyy-Cw8.pages.DEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiYlFvVlZKOHJxTSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "☁️ CF-172.66.45.2"
+    type: trojan
+    server: 172.66.45.2
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTYy-Cw8.PAGES.dEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiYkRzYUMzWVBlOCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "☁️ CF-IPv6"
+    type: trojan
+    server: [2606:4700:310c::ac42:2efe]
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTYy-cw8.PAgEs.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiYVIxdko3dEI4IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "☁️ CF-IPv6"
+    type: trojan
+    server: [2606:4700:310c::ac42:2d02]
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttyy-cW8.paGEs.dEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoieURUOXBxNUNaIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇷🇺 俄罗斯-5.8.52.100"
+    type: trojan
+    server: 5.8.52.100
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TtyY-CW8.pAgeS.Dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoicnRoY3R1VWUiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇯🇵 日本-5.34.220.80"
+    type: trojan
+    server: 5.34.220.80
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttyY-Cw8.paGeS.DEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiTmMxcmo1ZXlMU1l0IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇯🇵 日本-5.34.220.82"
+    type: trojan
+    server: 5.34.220.82
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTyY-CW8.paGes.dEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoicWh2a2U5M2ZIIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇷🇺 俄罗斯-5.129.241.70"
+    type: trojan
+    server: 5.129.241.70
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttyY-Cw8.PageS.DeV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoidUlEaWxiNEdsSE10ZHMiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-5.161.118.157"
+    type: trojan
+    server: 5.161.118.157
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTYy-cW8.pAGes.dEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiY2dMTHgyWEwiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇷🇺 俄罗斯-5.188.26.53"
+    type: trojan
+    server: 5.188.26.53
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttYY-Cw8.PageS.Dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiSEhpSk4xWEdON21hRmgiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇷🇺 俄罗斯-5.188.78.218"
+    type: trojan
+    server: 5.188.78.218
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTyy-cW8.pAGes.dEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiZ2ZscjR4RmQ1IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇯🇵 日本-13.114.101.22"
+    type: trojan
+    server: 13.114.101.22
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: Ttyy-Cw8.Pages.dEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiMG9Lem04ZWdzUzNWIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-18.216.207.41"
+    type: trojan
+    server: 18.216.207.41
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTyY-Cw8.PAges.DEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiSXVwazNOQ041eCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-20.120.129.200"
+    type: trojan
+    server: 20.120.129.200
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTyY-CW8.paGES.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoieGhHekt4TzExeHo5NXNNZiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-23.94.255.166"
+    type: trojan
+    server: 23.94.255.166
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TtYy-cw8.PAgEs.DeV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiWE1JRUVHU3IiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-23.158.233.2"
+    type: trojan
+    server: 23.158.233.2
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttyY-Cw8.PAGes.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiR1l4Qk81M0d1ZSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-23.254.253.126"
+    type: trojan
+    server: 23.254.253.126
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTyY-cW8.pAGeS.DeV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiWkpzdjFyQUZnbkFpd1BBaCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇷🇺 俄罗斯-31.24.251.152"
+    type: trojan
+    server: 31.24.251.152
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TtYy-CW8.PagES.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiRDdMN1hiTVciLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-34.70.211.132"
+    type: trojan
+    server: 34.70.211.132
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TtyY-Cw8.paGEs.deV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoieUdidVhnVTJLSGMwMyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇬🇧 英国-35.178.212.67"
+    type: trojan
+    server: 35.178.212.67
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTyy-cw8.paGEs.deV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiVEVzVnF4UHg0IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇷🇺 俄罗斯-37.140.199.59"
+    type: trojan
+    server: 37.140.199.59
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttyy-cw8.PaGeS.DEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiOTRCVUVrb1N6TWJmIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-38.49.42.83"
+    type: trojan
+    server: 38.49.42.83
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTyY-cW8.PAgEs.dEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiYlE4RUJ2cjdYZmFCWDUiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-38.58.108.15"
+    type: trojan
+    server: 38.58.108.15
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: Ttyy-Cw8.pAGES.Dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiR01LZEprT21DdE1NT1UiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-38.65.9.104"
+    type: trojan
+    server: 38.65.9.104
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TtyY-cw8.PageS.dEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiSm1ScWRDR016WSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-38.65.9.110"
+    type: trojan
+    server: 38.65.9.110
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttyY-Cw8.PagES.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiV2tXWUtKUlVzIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-38.180.204.104"
+    type: trojan
+    server: 38.180.204.104
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TtyY-cW8.PAGes.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiek9Ka2hWWkciLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇭🇰 香港-43.132.231.159"
+    type: trojan
+    server: 43.132.231.159
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttYy-Cw8.PAGES.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiTTNWQjUzanpSajYiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇰🇷 韩国-43.155.221.27"
+    type: trojan
+    server: 43.155.221.27
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTyY-cW8.pAges.deV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiZXBoWEhGbWMwNkwiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-43.172.87.194"
+    type: trojan
+    server: 43.172.87.194
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTyy-cw8.paGES.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiaHpqNTJsSVA3SloiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇹🇼 台湾-43.213.230.249"
+    type: trojan
+    server: 43.213.230.249
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TtYy-cw8.pAges.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiOHVhc08xVDAiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-44.236.119.165"
+    type: trojan
+    server: 44.236.119.165
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTYy-cW8.pAGeS.DeV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiMUgzbjQ0a0FvQnJ2IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇯🇵 日本-45.32.31.218"
+    type: trojan
+    server: 45.32.31.218
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TtyY-cw8.PAgES.DeV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiaFpZQ0E0a0RsRTJHSnMiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-45.32.64.108"
+    type: trojan
+    server: 45.32.64.108
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttyy-cW8.pagES.DEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoib3ZBWXN1eEs1enAiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-45.32.67.85"
+    type: trojan
+    server: 45.32.67.85
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTYY-cw8.pAgeS.Dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiZm9IbWxWVGhKZUlVIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇯🇵 日本-45.32.251.225"
+    type: trojan
+    server: 45.32.251.225
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTYY-cW8.PAgeS.dEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoieDFoUHJHZkh3WHFrMSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇭🇰 香港-45.38.42.216"
+    type: trojan
+    server: 45.38.42.216
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTYy-cW8.PaGEs.DeV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiU3BxTDlIS3FMT04iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇸🇬 新加坡-45.76.158.201"
+    type: trojan
+    server: 45.76.158.201
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTyY-Cw8.PAges.dEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoidEl4SGZpSDlOU2VVY1hsRyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇸🇬 新加坡-45.76.189.166"
+    type: trojan
+    server: 45.76.189.166
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttyY-cw8.pAGES.DEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiSnR5UG1UenNtNmY2eSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇯🇵 日本-45.77.21.148"
+    type: trojan
+    server: 45.77.21.148
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttYY-cw8.PAgEs.DeV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiZUtSelJIc0tsNGVjYUNOIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-45.77.121.190"
+    type: trojan
+    server: 45.77.121.190
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTyy-cW8.pAgeS.dEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiYzVWQ2N4Z1BwIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇭🇰 香港-45.136.14.61"
+    type: trojan
+    server: 45.136.14.61
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTYY-Cw8.PAgES.Dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoidU5JU0pJNHc1c0kiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇭🇰 香港-45.152.65.100"
+    type: trojan
+    server: 45.152.65.100
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTyY-CW8.pAGes.DEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoidjNzMjAxd1A2dFhTejVXQyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇹🇼 台湾-45.207.159.187"
+    type: trojan
+    server: 45.207.159.187
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttYY-cw8.pages.dEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiNEltTU1NNHRzZjFlYlFQIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇬🇧 英国-51.38.73.235"
+    type: trojan
+    server: 51.38.73.235
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttyy-cw8.pAgES.dEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiUE5VNlA5VlJVcSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇬🇧 英国-57.128.172.125"
+    type: trojan
+    server: 57.128.172.125
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttyY-cw8.PageS.Dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiM1I2bDh1SFdFIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇹🇼 台湾-59.127.177.184"
+    type: trojan
+    server: 59.127.177.184
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTyY-cw8.paGeS.Dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoibmZZSjJpSlF2IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇬🇧 英国-62.60.238.145"
+    type: trojan
+    server: 62.60.238.145
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttYY-CW8.PAgEs.dEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiRm0yMThkdDROZzhjIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇯🇵 日本-64.176.53.200"
+    type: trojan
+    server: 64.176.53.200
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTyY-cw8.paGEs.deV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiajRVNUtzSEgyWCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-64.176.217.138"
+    type: trojan
+    server: 64.176.217.138
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTyY-Cw8.pagES.DEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiSm5lMnl3V0xHZDciLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-66.212.16.145"
+    type: trojan
+    server: 66.212.16.145
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TtyY-Cw8.pAGES.DEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoieEM3a0lpY0c0IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-66.212.16.236"
+    type: trojan
+    server: 66.212.16.236
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTyy-cW8.pAGes.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoibWt0ZDJmcEZGIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇬🇧 英国-68.183.46.112"
+    type: trojan
+    server: 68.183.46.112
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttYy-CW8.PAges.dEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiOGZoenNDM1k3IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇸🇬 新加坡-68.183.227.216"
+    type: trojan
+    server: 68.183.227.216
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTyY-cW8.pAGeS.DeV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiY0FlTU1RRmhRY2QiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇷🇺 俄罗斯-82.97.249.34"
+    type: trojan
+    server: 82.97.249.34
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTyy-cw8.PAges.dEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiU0xMWjg1WDZ1V0tjcWNaMSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇹🇼 台湾-82.152.91.210"
+    type: trojan
+    server: 82.152.91.210
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTyY-cW8.PaGes.dEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoid1I1c3BDRzJIQiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇹🇼 台湾-83.147.13.193"
+    type: trojan
+    server: 83.147.13.193
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTyy-CW8.PAGeS.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiQktTRWs2RjlZSXJIRCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇹🇼 台湾-83.147.15.253"
+    type: trojan
+    server: 83.147.15.253
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttYY-Cw8.PAGEs.DEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiTWNlTlpIeWNvNm5oeGY2IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇭🇰 香港-83.147.60.79"
+    type: trojan
+    server: 83.147.60.79
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttYY-CW8.pAGes.dEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoid0p4b1M4cnJacXNDIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇷🇺 俄罗斯-83.229.14.123"
+    type: trojan
+    server: 83.229.14.123
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTyy-cw8.paGEs.DeV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoib3hRUlluaGJXczFvIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇬🇧 英国-84.22.150.47"
+    type: trojan
+    server: 84.22.150.47
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttyy-Cw8.PAGes.DeV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoialQ2WG9aNzNSIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇬🇧 英国-85.192.61.69"
+    type: trojan
+    server: 85.192.61.69
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTyy-CW8.pAGes.dEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiMEFKdUVGc3lZIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-87.99.132.161"
+    type: trojan
+    server: 87.99.132.161
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TtyY-cW8.PAGEs.DeV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiMGtGTWU1UlU1SmhKIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇬🇧 英国-89.22.227.64"
+    type: trojan
+    server: 89.22.227.64
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TtYy-cw8.pAges.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiSjFzdUZkdDg3MExOWWE3IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇬🇧 英国-89.22.231.225"
+    type: trojan
+    server: 89.22.231.225
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTyY-cw8.paGEs.Dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoibWwzemZxMnoxWSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇷🇺 俄罗斯-91.142.90.97"
+    type: trojan
+    server: 91.142.90.97
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttYY-cW8.paGEs.Dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiYzNPUXgwR1JEcnhxSkxWIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇷🇺 俄罗斯-95.81.115.178"
+    type: trojan
+    server: 95.81.115.178
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTyy-cW8.PAgES.dEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiQ2NOQ2pOTndibjZzIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇭🇰 香港-95.182.95.75"
+    type: trojan
+    server: 95.182.95.75
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TtyY-CW8.pAGEs.DeV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoia0JFY2JFS1hlN2ZkV2oiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇸🇬 新加坡-96.9.213.89"
+    type: trojan
+    server: 96.9.213.89
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttYy-cW8.paGES.Dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiUUFwTE5WbzZYIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇭🇰 香港-103.97.201.37"
+    type: trojan
+    server: 103.97.201.37
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTyy-cW8.PAGes.DeV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiNGNlYjVCdlhIM2duM3hpIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇭🇰 香港-103.213.4.57"
+    type: trojan
+    server: 103.213.4.57
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TtyY-cw8.pageS.DEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoicnhzenVFTnYiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇬🇧 英国-104.194.143.92"
+    type: trojan
+    server: 104.194.143.92
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttYY-CW8.pAgEs.Dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiV094S1NMMVpvdHUiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-107.161.24.195"
+    type: trojan
+    server: 107.161.24.195
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TtyY-cW8.PAgEs.deV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoidHJrUTVhSkUzciIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-107.173.155.70"
+    type: trojan
+    server: 107.173.155.70
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttYY-CW8.paGeS.Dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoicTNtdWFVMzdsS25kIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-107.174.81.92"
+    type: trojan
+    server: 107.174.81.92
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTYy-cW8.pagES.Dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoic3FCd0JBeHZUIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-107.174.210.240"
+    type: trojan
+    server: 107.174.210.240
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTYY-cw8.PagEs.DEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiWWh6V3Y4RjM2WEwiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-113.20.5.18"
+    type: trojan
+    server: 113.20.5.18
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTyy-cW8.PaGEs.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiVHk3WkRucXpFU0IiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-113.20.12.85"
+    type: trojan
+    server: 113.20.12.85
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttyY-cW8.PAges.DeV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiQ2V0Q3V3MURuIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-113.20.15.175"
+    type: trojan
+    server: 113.20.15.175
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttyY-cW8.paGES.DEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiQ2ZQT3VDU0tvcDQyM3MiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇰🇷 韩国-119.205.235.58"
+    type: trojan
+    server: 119.205.235.58
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttyy-cW8.pAGES.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoia0FnanppTk5CUU4iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇸🇬 新加坡-128.1.186.58"
+    type: trojan
+    server: 128.1.186.58
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttyy-Cw8.pAges.deV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoickVkMnBSZWc4YkQzQVIiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇸🇬 新加坡-128.1.186.61"
+    type: trojan
+    server: 128.1.186.61
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTyY-CW8.PaGEs.dEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiVzEwSHVDenAiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇸🇬 新加坡-128.199.255.242"
+    type: trojan
+    server: 128.199.255.242
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTyy-cw8.pAGes.DEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoicUJva3ZwUUVDIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-129.80.111.1"
+    type: trojan
+    server: 129.80.111.1
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTYY-cW8.pAgeS.DEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiU2M3U0xWa25MMGt1IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-129.153.70.191"
+    type: trojan
+    server: 129.153.70.191
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTyY-cw8.PaGes.Dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiWEUxSkpZTjlzbiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-129.158.241.2"
+    type: trojan
+    server: 129.158.241.2
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttyy-cW8.PaGES.deV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiZnVNbWNOR2JxM3RrTiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇰🇷 韩国-132.145.91.135"
+    type: trojan
+    server: 132.145.91.135
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttyy-CW8.paGEs.DEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiOFBxVVZrcGUzNjZ3IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇰🇷 韩国-132.145.91.181"
+    type: trojan
+    server: 132.145.91.181
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttYy-CW8.PaGes.DEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoidDFwdlJyajNqN0F3aURXIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇰🇷 韩国-134.185.99.52"
+    type: trojan
+    server: 134.185.99.52
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTYy-cw8.PagES.DEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiVHV5MHRtNERGck4iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇯🇵 日本-138.2.41.8"
+    type: trojan
+    server: 138.2.41.8
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttyY-CW8.pagES.dEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiYjc4T3p0UVVGIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇬🇧 英国-138.68.131.25"
+    type: trojan
+    server: 138.68.131.25
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTyY-cW8.paGEs.DeV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiOE9Dc2RMd0tJSzk3IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇷🇺 俄罗斯-138.124.254.11"
+    type: trojan
+    server: 138.124.254.11
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttYy-cW8.paGEs.DeV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiV0tGaDRpanMwUzZWYnlOOCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇷🇺 俄罗斯-139.100.226.187"
+    type: trojan
+    server: 139.100.226.187
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TtYY-cw8.pagEs.DEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiTWgwR254VW53Tno0RUZXIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇸🇬 新加坡-139.180.135.10"
+    type: trojan
+    server: 139.180.135.10
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTYy-cW8.pAGES.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiTG1vTmFZNDdMU2IiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇸🇬 新加坡-139.180.212.225"
+    type: trojan
+    server: 139.180.212.225
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttYy-cw8.pAGEs.dEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoieXhPM2VKQWVMbDNXZXFXIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇸🇬 新加坡-139.180.220.7"
+    type: trojan
+    server: 139.180.220.7
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TtYy-cW8.pAGEs.dEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoibjlyWTBZalNqbyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇹🇼 台湾-140.235.38.78"
+    type: trojan
+    server: 140.235.38.78
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TtyY-cW8.PAgES.DEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoic2FRUzNjY2giLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇰🇷 韩国-140.238.5.86"
+    type: trojan
+    server: 140.238.5.86
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttYy-cw8.PaGes.dEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiMkQycU5ib29WNzN5OXBCIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇰🇷 韩国-140.238.30.217"
+    type: trojan
+    server: 140.238.30.217
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTYY-CW8.paGes.Dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiTjJoU25ReVRRaiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇰🇷 韩国-141.164.34.161"
+    type: trojan
+    server: 141.164.34.161
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTyY-cw8.pAgES.DEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiV0JVS1R5dDhQRmVjWTJwQiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇯🇵 日本-142.91.109.211"
+    type: trojan
+    server: 142.91.109.211
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTyy-Cw8.pAgES.deV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiMWVmUjF4V08iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇹🇼 台湾-142.249.60.51"
+    type: trojan
+    server: 142.249.60.51
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TtYY-CW8.PAgEs.dEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoidnQ2d1lIYjdpcW5LVlp3UiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇭🇰 香港-143.20.156.116"
+    type: trojan
+    server: 143.20.156.116
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttyy-CW8.pAGEs.dEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiSzRqc0NKTTBRd21hIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇬🇧 英国-143.110.163.137"
+    type: trojan
+    server: 143.110.163.137
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TtYY-cw8.PAgEs.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiS09TMm1kb1VyZnI4OFUiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-144.172.111.252"
+    type: trojan
+    server: 144.172.111.252
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttyY-cw8.PaGes.DeV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiMUdnckJibXAiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-144.225.255.169"
+    type: trojan
+    server: 144.225.255.169
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTYy-Cw8.PAges.dEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiY1lWenMzM0JsYWNDQyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇰🇷 韩国-146.56.151.92"
+    type: trojan
+    server: 146.56.151.92
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTyY-cW8.pagEs.DeV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoibTYwNVoxT2I0SU4iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇰🇷 韩国-146.56.167.171"
+    type: trojan
+    server: 146.56.167.171
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTyY-cW8.paGeS.DEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiYThmUXF1Q1cxQ016IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇰🇷 韩国-146.56.187.1"
+    type: trojan
+    server: 146.56.187.1
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttYy-cw8.PAgeS.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiN3NvdlJuSEllcGZNIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇰🇷 韩国-146.56.188.74"
+    type: trojan
+    server: 146.56.188.74
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTYy-Cw8.PAgEs.dEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiMldOVU1lR0FRWEZ4SnMiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-148.135.86.154"
+    type: trojan
+    server: 148.135.86.154
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttYY-cw8.Pages.dEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoieGUzRnQwWVpGIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇭🇰 香港-149.104.24.57"
+    type: trojan
+    server: 149.104.24.57
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTyy-cw8.pAGes.DEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiWEthelp5ZnNsRE1lRlYiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇯🇵 日本-150.230.210.236"
+    type: trojan
+    server: 150.230.210.236
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTYy-cW8.pageS.dEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiY3llWHN5MnlBT2JCREYiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇹🇼 台湾-151.242.188.249"
+    type: trojan
+    server: 151.242.188.249
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttYy-cw8.pAgES.deV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoicmF4Y2ZKb2pLVVFoUUUiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇹🇼 台湾-151.242.189.162"
+    type: trojan
+    server: 151.242.189.162
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTYy-cw8.PAGEs.dEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoicEFVWEdiMGlKanJIIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇸🇬 新加坡-152.42.161.156"
+    type: trojan
+    server: 152.42.161.156
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttyy-cw8.PAGEs.dEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoia1hvWWRpUTlhQ2tHb1UiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-152.53.81.176"
+    type: trojan
+    server: 152.53.81.176
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttyy-cW8.Pages.dEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiVUVrdm1xU3JqIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇰🇷 韩国-152.67.210.234"
+    type: trojan
+    server: 152.67.210.234
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: Ttyy-CW8.PAges.Dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiMlZDM09Jd3oiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-152.67.233.61"
+    type: trojan
+    server: 152.67.233.61
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTyY-CW8.PAGes.dEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiRHM3UW9HOHQydUxUR1lKdyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇰🇷 韩国-152.69.229.110"
+    type: trojan
+    server: 152.69.229.110
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTYy-cW8.PaGeS.dEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiRDhoYWtRZmpIVVJ6IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇰🇷 韩国-152.70.239.74"
+    type: trojan
+    server: 152.70.239.74
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TtYY-CW8.pAgES.DeV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoidk82T2ZNOXB4ZGEiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-154.7.183.116"
+    type: trojan
+    server: 154.7.183.116
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTYy-CW8.pAGes.deV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiZFozc1BiNERZbEczWlgiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-154.23.163.105"
+    type: trojan
+    server: 154.23.163.105
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TtyY-cw8.paGes.Dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiWFk3UjFBdkhDWWNNVzlxIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-155.254.127.3"
+    type: trojan
+    server: 155.254.127.3
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TtyY-CW8.paGeS.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiMFQ0RHFnWWVxdnNQN2RzIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇷🇺 俄罗斯-157.22.185.45"
+    type: trojan
+    server: 157.22.185.45
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TtYy-CW8.PaGeS.deV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoibDJZNXFYcmxKbkJ0ZEFJcyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇸🇬 新加坡-157.228.130.240"
+    type: trojan
+    server: 157.228.130.240
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTYY-Cw8.pAgEs.dEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoickNXZmZZcFRiWk5UcDQiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇰🇷 韩国-158.247.201.201"
+    type: trojan
+    server: 158.247.201.201
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTYy-cw8.pAGeS.DeV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoieno3TXdmVEhuSkVTNkUiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇰🇷 韩国-158.247.224.240"
+    type: trojan
+    server: 158.247.224.240
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TtYY-CW8.PAgeS.DeV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiOGo2MENlZUhVIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-159.54.182.204"
+    type: trojan
+    server: 159.54.182.204
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTyY-cw8.PagES.DEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoieEVueXVsNHpQaWVKYmpwZSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇬🇧 英国-159.65.81.106"
+    type: trojan
+    server: 159.65.81.106
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttYy-Cw8.PAges.dEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiRkYyZjdKYWRIam9Bck4iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-159.65.105.231"
+    type: trojan
+    server: 159.65.105.231
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: Ttyy-cw8.PAGes.DEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiMXJmQ3JUOFJGbHN3WW4wIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇷🇺 俄罗斯-159.194.230.89"
+    type: trojan
+    server: 159.194.230.89
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTYy-cw8.PAGes.DEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiY1dmcFQwbDhjajVqIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇸🇬 新加坡-159.223.33.4"
+    type: trojan
+    server: 159.223.33.4
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTyY-Cw8.PaGes.DeV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiTXhiaTFHdlZNTHk0IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇯🇵 日本-161.33.15.101"
+    type: trojan
+    server: 161.33.15.101
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTYy-Cw8.PagEs.dEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiREpxbWVoSUUiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇯🇵 日本-161.33.29.51"
+    type: trojan
+    server: 161.33.29.51
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TtYy-cw8.pAGES.dEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiclhtaVdVR2I5bVJTTlUiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇯🇵 日本-161.33.172.160"
+    type: trojan
+    server: 161.33.172.160
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTYY-cw8.PaGeS.DEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoibXpZQ0pGbWVzeiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇬🇧 英国-161.35.170.151"
+    type: trojan
+    server: 161.35.170.151
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTYY-cW8.pAges.DEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoidTFDZXFZZVNhZ0dIWGw5MSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-161.35.232.123"
+    type: trojan
+    server: 161.35.232.123
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttyy-cw8.pagES.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoibGtZWjBaWHI3RHg2IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-162.243.115.23"
+    type: trojan
+    server: 162.243.115.23
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTyY-cw8.pAGeS.DEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoianVNT2xoZUo3a3llZmhyIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇬🇧 英国-165.232.32.168"
+    type: trojan
+    server: 165.232.32.168
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTYy-cw8.PaGes.DEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiWmZaSGJDemgiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-165.232.54.102"
+    type: trojan
+    server: 165.232.54.102
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttYY-Cw8.pAgES.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoicUpmZ0lHSjVtTzZSciIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇬🇧 英国-165.232.108.151"
+    type: trojan
+    server: 165.232.108.151
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTyY-cw8.pAGeS.dEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiblBOWTJLdEVQRURXNiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇸🇬 新加坡-165.232.175.180"
+    type: trojan
+    server: 165.232.175.180
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttyy-cw8.PAGeS.dEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoieUdUbGhHVWJpN0dpV0siLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇬🇧 英国-167.71.139.172"
+    type: trojan
+    server: 167.71.139.172
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTYy-cW8.pAGEs.DEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiMWlmSHNZNVdPYyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇯🇵 日本-168.138.52.221"
+    type: trojan
+    server: 168.138.52.221
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTYy-Cw8.paGeS.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiRnVVMk9rTERHSUZmNGQiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇸🇬 新加坡-168.144.109.68"
+    type: trojan
+    server: 168.144.109.68
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTyY-cw8.pAGES.deV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiQ1lGSEVCbXB0WVciLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-170.106.171.202"
+    type: trojan
+    server: 170.106.171.202
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTYY-CW8.pAgEs.deV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiOXhvT1FxTHJ2OW9PR3plIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-172.86.72.69"
+    type: trojan
+    server: 172.86.72.69
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTyy-cw8.PAGes.dEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiYllRSG9xd28iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇯🇵 日本-172.237.5.76"
+    type: trojan
+    server: 172.237.5.76
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttyy-CW8.PagEs.dEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiU2VBVExqeENGS0JPYVpKIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇯🇵 日本-172.237.7.216"
+    type: trojan
+    server: 172.237.7.216
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTyY-CW8.PagEs.dEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiUFU3WlYxY2ZrYk4yOSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇸🇬 新加坡-178.128.125.147"
+    type: trojan
+    server: 178.128.125.147
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTYY-cW8.PaGES.dEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiME1wZEVOTlRMIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇯🇵 日本-178.214.214.56"
+    type: trojan
+    server: 178.214.214.56
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttyY-cW8.pageS.deV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiY004aFhNcWtCSWZJR3FMIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-179.255.185.126"
+    type: trojan
+    server: 179.255.185.126
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttYY-cW8.pAgES.DEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiOHk3Q1o1Tll2d1pTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇷🇺 俄罗斯-185.84.162.74"
+    type: trojan
+    server: 185.84.162.74
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTYY-cw8.paGes.deV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiMWM0OXpwSEtEUnFacVVScSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇷🇺 俄罗斯-185.170.10.170"
+    type: trojan
+    server: 185.170.10.170
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTyy-CW8.PagEs.DEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiaDV3NGM3aXI2IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-185.234.145.124"
+    type: trojan
+    server: 185.234.145.124
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTyY-cw8.pageS.dEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiVFhFWVJDVGdxIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇷🇺 俄罗斯-188.225.45.209"
+    type: trojan
+    server: 188.225.45.209
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTYY-Cw8.PAGeS.DEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiQ0xNZDFjWW1MRWQ5VXBzIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇹🇼 台湾-188.253.6.249"
+    type: trojan
+    server: 188.253.6.249
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTYy-cw8.pAGEs.DeV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiVVZXQnJjSXhZMTJxIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇷🇺 俄罗斯-191.44.37.141"
+    type: trojan
+    server: 191.44.37.141
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TtYy-cw8.pAGeS.dEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiZFN1TG9KR21UeVVaMXMyeSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇰🇷 韩国-193.122.96.190"
+    type: trojan
+    server: 193.122.96.190
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttYy-cw8.PaGES.dEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoia1ZHc2tmSlpNRUxVN2ciLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇰🇷 韩国-193.122.115.184"
+    type: trojan
+    server: 193.122.115.184
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttyY-CW8.PaGeS.Dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiVHczQXEyTENybUZRQSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇰🇷 韩国-193.123.236.206"
+    type: trojan
+    server: 193.123.236.206
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttyy-Cw8.PaGeS.dEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiQVA5ZnpLZmFNWVhpY2UiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇷🇺 俄罗斯-193.233.90.91"
+    type: trojan
+    server: 193.233.90.91
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttyy-Cw8.PaGes.DEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoib0hNNUxUNTYySG5qdiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇸🇬 新加坡-194.127.192.138"
+    type: trojan
+    server: 194.127.192.138
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTyy-Cw8.PagES.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiM1lrQjNTN0J4IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇬🇧 英国-194.147.88.33"
+    type: trojan
+    server: 194.147.88.33
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttyy-Cw8.PAges.DEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoialJ1cXp6cGxRWW01WERDIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇯🇵 日本-200.180.163.38"
+    type: trojan
+    server: 200.180.163.38
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTYy-cW8.pAGeS.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoickM1VEZvVVZMSG1MIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇷🇺 俄罗斯-201.34.136.83"
+    type: trojan
+    server: 201.34.136.83
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTyy-cw8.PaGES.dEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiQ0NMc1JlMHNWRHg1aEw1IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-202.5.16.17"
+    type: trojan
+    server: 202.5.16.17
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTYy-Cw8.pageS.DeV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiQjI3RXJkRDNzbVlLaGlzTCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇯🇵 日本-202.144.194.101"
+    type: trojan
+    server: 202.144.194.101
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: ttYy-cW8.pageS.DeV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiejdUUUhHYzNBVFM3dSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇬🇧 英国-206.189.21.73"
+    type: trojan
+    server: 206.189.21.73
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TtyY-cw8.PAgeS.Dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiMjZWNWtXTlFodyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇸🇬 新加坡-207.148.71.119"
+    type: trojan
+    server: 207.148.71.119
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTyY-Cw8.PagEs.dEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoianBkaHVsNWw3MmdQNXhRWSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇺🇸 美国-208.68.180.65"
+    type: trojan
+    server: 208.68.180.65
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TtYy-cW8.Pages.DEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiaUN3WEs0SU0iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇬🇧 英国-213.165.42.90"
+    type: trojan
+    server: 213.165.42.90
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTyY-cW8.pAges.deV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoicTNSaEphOUVvViIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇯🇵 日本-216.23.84.115"
+    type: trojan
+    server: 216.23.84.115
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TTyY-cW8.paGEs.dEV
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiRmx4OWZaVUcyRHJXRWgiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119"
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇸🇬 新加坡-217.15.167.34"
+    type: trojan
+    server: 217.15.167.34
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: tTYY-CW8.PAges.dEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoidU02V1k3M3cwIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+  - name: "🇸🇬 新加坡-217.216.109.249"
+    type: trojan
+    server: 217.216.109.249
+    port: 443
+    password: "d2+4BAtrH1n'S,vt"
+    sni: TtYY-Cw8.pAGeS.DEv
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiakVhbTFZYlp5eGNhM3M1IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: ttyy-cw8.pages.dev
+proxy-groups:
+  - name: "🚀 节点选择"
+    type: select
+    proxies:
+      - "♻️ 自动选择"
+      - "🌐 域名-ttyy-cw8.pages.dev"
+      - "🌐 Speedtest"
+      - "☁️ CF-172.66.46.254"
+      - "☁️ CF-172.66.45.2"
+      - "☁️ CF-IPv6"
+      - "☁️ CF-IPv6"
+      - "🇷🇺 俄罗斯-5.8.52.100"
+      - "🇯🇵 日本-5.34.220.80"
+      - "🇯🇵 日本-5.34.220.82"
+      - "🇷🇺 俄罗斯-5.129.241.70"
+      - "🇺🇸 美国-5.161.118.157"
+      - "🇷🇺 俄罗斯-5.188.26.53"
+      - "🇷🇺 俄罗斯-5.188.78.218"
+      - "🇯🇵 日本-13.114.101.22"
+      - "🇺🇸 美国-18.216.207.41"
+      - "🇺🇸 美国-20.120.129.200"
+      - "🇺🇸 美国-23.94.255.166"
+      - "🇺🇸 美国-23.158.233.2"
+      - "🇺🇸 美国-23.254.253.126"
+      - "🇷🇺 俄罗斯-31.24.251.152"
+      - "🇺🇸 美国-34.70.211.132"
+      - "🇬🇧 英国-35.178.212.67"
+      - "🇷🇺 俄罗斯-37.140.199.59"
+      - "🇺🇸 美国-38.49.42.83"
+      - "🇺🇸 美国-38.58.108.15"
+      - "🇺🇸 美国-38.65.9.104"
+      - "🇺🇸 美国-38.65.9.110"
+      - "🇺🇸 美国-38.180.204.104"
+      - "🇭🇰 香港-43.132.231.159"
+      - "🇰🇷 韩国-43.155.221.27"
+      - "🇺🇸 美国-43.172.87.194"
+      - "🇹🇼 台湾-43.213.230.249"
+      - "🇺🇸 美国-44.236.119.165"
+      - "🇯🇵 日本-45.32.31.218"
+      - "🇺🇸 美国-45.32.64.108"
+      - "🇺🇸 美国-45.32.67.85"
+      - "🇯🇵 日本-45.32.251.225"
+      - "🇭🇰 香港-45.38.42.216"
+      - "🇸🇬 新加坡-45.76.158.201"
+      - "🇸🇬 新加坡-45.76.189.166"
+      - "🇯🇵 日本-45.77.21.148"
+      - "🇺🇸 美国-45.77.121.190"
+      - "🇭🇰 香港-45.136.14.61"
+      - "🇭🇰 香港-45.152.65.100"
+      - "🇹🇼 台湾-45.207.159.187"
+      - "🇬🇧 英国-51.38.73.235"
+      - "🇬🇧 英国-57.128.172.125"
+      - "🇹🇼 台湾-59.127.177.184"
+      - "🇬🇧 英国-62.60.238.145"
+      - "🇯🇵 日本-64.176.53.200"
+      - "🇺🇸 美国-64.176.217.138"
+      - "🇺🇸 美国-66.212.16.145"
+      - "🇺🇸 美国-66.212.16.236"
+      - "🇬🇧 英国-68.183.46.112"
+      - "🇸🇬 新加坡-68.183.227.216"
+      - "🇷🇺 俄罗斯-82.97.249.34"
+      - "🇹🇼 台湾-82.152.91.210"
+      - "🇹🇼 台湾-83.147.13.193"
+      - "🇹🇼 台湾-83.147.15.253"
+      - "🇭🇰 香港-83.147.60.79"
+      - "🇷🇺 俄罗斯-83.229.14.123"
+      - "🇬🇧 英国-84.22.150.47"
+      - "🇬🇧 英国-85.192.61.69"
+      - "🇺🇸 美国-87.99.132.161"
+      - "🇬🇧 英国-89.22.227.64"
+      - "🇬🇧 英国-89.22.231.225"
+      - "🇷🇺 俄罗斯-91.142.90.97"
+      - "🇷🇺 俄罗斯-95.81.115.178"
+      - "🇭🇰 香港-95.182.95.75"
+      - "🇸🇬 新加坡-96.9.213.89"
+      - "🇭🇰 香港-103.97.201.37"
+      - "🇭🇰 香港-103.213.4.57"
+      - "🇬🇧 英国-104.194.143.92"
+      - "🇺🇸 美国-107.161.24.195"
+      - "🇺🇸 美国-107.173.155.70"
+      - "🇺🇸 美国-107.174.81.92"
+      - "🇺🇸 美国-107.174.210.240"
+      - "🇺🇸 美国-113.20.5.18"
+      - "🇺🇸 美国-113.20.12.85"
+      - "🇺🇸 美国-113.20.15.175"
+      - "🇰🇷 韩国-119.205.235.58"
+      - "🇸🇬 新加坡-128.1.186.58"
+      - "🇸🇬 新加坡-128.1.186.61"
+      - "🇸🇬 新加坡-128.199.255.242"
+      - "🇺🇸 美国-129.80.111.1"
+      - "🇺🇸 美国-129.153.70.191"
+      - "🇺🇸 美国-129.158.241.2"
+      - "🇰🇷 韩国-132.145.91.135"
+      - "🇰🇷 韩国-132.145.91.181"
+      - "🇰🇷 韩国-134.185.99.52"
+      - "🇯🇵 日本-138.2.41.8"
+      - "🇬🇧 英国-138.68.131.25"
+      - "🇷🇺 俄罗斯-138.124.254.11"
+      - "🇷🇺 俄罗斯-139.100.226.187"
+      - "🇸🇬 新加坡-139.180.135.10"
+      - "🇸🇬 新加坡-139.180.212.225"
+      - "🇸🇬 新加坡-139.180.220.7"
+      - "🇹🇼 台湾-140.235.38.78"
+      - "🇰🇷 韩国-140.238.5.86"
+      - "🇰🇷 韩国-140.238.30.217"
+      - "🇰🇷 韩国-141.164.34.161"
+      - "🇯🇵 日本-142.91.109.211"
+      - "🇹🇼 台湾-142.249.60.51"
+      - "🇭🇰 香港-143.20.156.116"
+      - "🇬🇧 英国-143.110.163.137"
+      - "🇺🇸 美国-144.172.111.252"
+      - "🇺🇸 美国-144.225.255.169"
+      - "🇰🇷 韩国-146.56.151.92"
+      - "🇰🇷 韩国-146.56.167.171"
+      - "🇰🇷 韩国-146.56.187.1"
+      - "🇰🇷 韩国-146.56.188.74"
+      - "🇺🇸 美国-148.135.86.154"
+      - "🇭🇰 香港-149.104.24.57"
+      - "🇯🇵 日本-150.230.210.236"
+      - "🇹🇼 台湾-151.242.188.249"
+      - "🇹🇼 台湾-151.242.189.162"
+      - "🇸🇬 新加坡-152.42.161.156"
+      - "🇺🇸 美国-152.53.81.176"
+      - "🇰🇷 韩国-152.67.210.234"
+      - "🇺🇸 美国-152.67.233.61"
+      - "🇰🇷 韩国-152.69.229.110"
+      - "🇰🇷 韩国-152.70.239.74"
+      - "🇺🇸 美国-154.7.183.116"
+      - "🇺🇸 美国-154.23.163.105"
+      - "🇺🇸 美国-155.254.127.3"
+      - "🇷🇺 俄罗斯-157.22.185.45"
+      - "🇸🇬 新加坡-157.228.130.240"
+      - "🇰🇷 韩国-158.247.201.201"
+      - "🇰🇷 韩国-158.247.224.240"
+      - "🇺🇸 美国-159.54.182.204"
+      - "🇬🇧 英国-159.65.81.106"
+      - "🇺🇸 美国-159.65.105.231"
+      - "🇷🇺 俄罗斯-159.194.230.89"
+      - "🇸🇬 新加坡-159.223.33.4"
+      - "🇯🇵 日本-161.33.15.101"
+      - "🇯🇵 日本-161.33.29.51"
+      - "🇯🇵 日本-161.33.172.160"
+      - "🇬🇧 英国-161.35.170.151"
+      - "🇺🇸 美国-161.35.232.123"
+      - "🇺🇸 美国-162.243.115.23"
+      - "🇬🇧 英国-165.232.32.168"
+      - "🇺🇸 美国-165.232.54.102"
+      - "🇬🇧 英国-165.232.108.151"
+      - "🇸🇬 新加坡-165.232.175.180"
+      - "🇬🇧 英国-167.71.139.172"
+      - "🇯🇵 日本-168.138.52.221"
+      - "🇸🇬 新加坡-168.144.109.68"
+      - "🇺🇸 美国-170.106.171.202"
+      - "🇺🇸 美国-172.86.72.69"
+      - "🇯🇵 日本-172.237.5.76"
+      - "🇯🇵 日本-172.237.7.216"
+      - "🇸🇬 新加坡-178.128.125.147"
+      - "🇯🇵 日本-178.214.214.56"
+      - "🇺🇸 美国-179.255.185.126"
+      - "🇷🇺 俄罗斯-185.84.162.74"
+      - "🇷🇺 俄罗斯-185.170.10.170"
+      - "🇺🇸 美国-185.234.145.124"
+      - "🇷🇺 俄罗斯-188.225.45.209"
+      - "🇹🇼 台湾-188.253.6.249"
+      - "🇷🇺 俄罗斯-191.44.37.141"
+      - "🇰🇷 韩国-193.122.96.190"
+      - "🇰🇷 韩国-193.122.115.184"
+      - "🇰🇷 韩国-193.123.236.206"
+      - "🇷🇺 俄罗斯-193.233.90.91"
+      - "🇸🇬 新加坡-194.127.192.138"
+      - "🇬🇧 英国-194.147.88.33"
+      - "🇯🇵 日本-200.180.163.38"
+      - "🇷🇺 俄罗斯-201.34.136.83"
+      - "🇺🇸 美国-202.5.16.17"
+      - "🇯🇵 日本-202.144.194.101"
+      - "🇬🇧 英国-206.189.21.73"
+      - "🇸🇬 新加坡-207.148.71.119"
+      - "🇺🇸 美国-208.68.180.65"
+      - "🇬🇧 英国-213.165.42.90"
+      - "🇯🇵 日本-216.23.84.115"
+      - "🇸🇬 新加坡-217.15.167.34"
+      - "🇸🇬 新加坡-217.216.109.249"
+  - name: "♻️ 自动选择"
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - "🌐 域名-ttyy-cw8.pages.dev"
+      - "🌐 Speedtest"
+      - "☁️ CF-172.66.46.254"
+      - "☁️ CF-172.66.45.2"
+      - "☁️ CF-IPv6"
+      - "☁️ CF-IPv6"
+      - "🇷🇺 俄罗斯-5.8.52.100"
+      - "🇯🇵 日本-5.34.220.80"
+      - "🇯🇵 日本-5.34.220.82"
+      - "🇷🇺 俄罗斯-5.129.241.70"
+      - "🇺🇸 美国-5.161.118.157"
+      - "🇷🇺 俄罗斯-5.188.26.53"
+      - "🇷🇺 俄罗斯-5.188.78.218"
+      - "🇯🇵 日本-13.114.101.22"
+      - "🇺🇸 美国-18.216.207.41"
+      - "🇺🇸 美国-20.120.129.200"
+      - "🇺🇸 美国-23.94.255.166"
+      - "🇺🇸 美国-23.158.233.2"
+      - "🇺🇸 美国-23.254.253.126"
+      - "🇷🇺 俄罗斯-31.24.251.152"
+      - "🇺🇸 美国-34.70.211.132"
+      - "🇬🇧 英国-35.178.212.67"
+      - "🇷🇺 俄罗斯-37.140.199.59"
+      - "🇺🇸 美国-38.49.42.83"
+      - "🇺🇸 美国-38.58.108.15"
+      - "🇺🇸 美国-38.65.9.104"
+      - "🇺🇸 美国-38.65.9.110"
+      - "🇺🇸 美国-38.180.204.104"
+      - "🇭🇰 香港-43.132.231.159"
+      - "🇰🇷 韩国-43.155.221.27"
+      - "🇺🇸 美国-43.172.87.194"
+      - "🇹🇼 台湾-43.213.230.249"
+      - "🇺🇸 美国-44.236.119.165"
+      - "🇯🇵 日本-45.32.31.218"
+      - "🇺🇸 美国-45.32.64.108"
+      - "🇺🇸 美国-45.32.67.85"
+      - "🇯🇵 日本-45.32.251.225"
+      - "🇭🇰 香港-45.38.42.216"
+      - "🇸🇬 新加坡-45.76.158.201"
+      - "🇸🇬 新加坡-45.76.189.166"
+      - "🇯🇵 日本-45.77.21.148"
+      - "🇺🇸 美国-45.77.121.190"
+      - "🇭🇰 香港-45.136.14.61"
+      - "🇭🇰 香港-45.152.65.100"
+      - "🇹🇼 台湾-45.207.159.187"
+      - "🇬🇧 英国-51.38.73.235"
+      - "🇬🇧 英国-57.128.172.125"
+      - "🇹🇼 台湾-59.127.177.184"
+      - "🇬🇧 英国-62.60.238.145"
+      - "🇯🇵 日本-64.176.53.200"
+      - "🇺🇸 美国-64.176.217.138"
+      - "🇺🇸 美国-66.212.16.145"
+      - "🇺🇸 美国-66.212.16.236"
+      - "🇬🇧 英国-68.183.46.112"
+      - "🇸🇬 新加坡-68.183.227.216"
+      - "🇷🇺 俄罗斯-82.97.249.34"
+      - "🇹🇼 台湾-82.152.91.210"
+      - "🇹🇼 台湾-83.147.13.193"
+      - "🇹🇼 台湾-83.147.15.253"
+      - "🇭🇰 香港-83.147.60.79"
+      - "🇷🇺 俄罗斯-83.229.14.123"
+      - "🇬🇧 英国-84.22.150.47"
+      - "🇬🇧 英国-85.192.61.69"
+      - "🇺🇸 美国-87.99.132.161"
+      - "🇬🇧 英国-89.22.227.64"
+      - "🇬🇧 英国-89.22.231.225"
+      - "🇷🇺 俄罗斯-91.142.90.97"
+      - "🇷🇺 俄罗斯-95.81.115.178"
+      - "🇭🇰 香港-95.182.95.75"
+      - "🇸🇬 新加坡-96.9.213.89"
+      - "🇭🇰 香港-103.97.201.37"
+      - "🇭🇰 香港-103.213.4.57"
+      - "🇬🇧 英国-104.194.143.92"
+      - "🇺🇸 美国-107.161.24.195"
+      - "🇺🇸 美国-107.173.155.70"
+      - "🇺🇸 美国-107.174.81.92"
+      - "🇺🇸 美国-107.174.210.240"
+      - "🇺🇸 美国-113.20.5.18"
+      - "🇺🇸 美国-113.20.12.85"
+      - "🇺🇸 美国-113.20.15.175"
+      - "🇰🇷 韩国-119.205.235.58"
+      - "🇸🇬 新加坡-128.1.186.58"
+      - "🇸🇬 新加坡-128.1.186.61"
+      - "🇸🇬 新加坡-128.199.255.242"
+      - "🇺🇸 美国-129.80.111.1"
+      - "🇺🇸 美国-129.153.70.191"
+      - "🇺🇸 美国-129.158.241.2"
+      - "🇰🇷 韩国-132.145.91.135"
+      - "🇰🇷 韩国-132.145.91.181"
+      - "🇰🇷 韩国-134.185.99.52"
+      - "🇯🇵 日本-138.2.41.8"
+      - "🇬🇧 英国-138.68.131.25"
+      - "🇷🇺 俄罗斯-138.124.254.11"
+      - "🇷🇺 俄罗斯-139.100.226.187"
+      - "🇸🇬 新加坡-139.180.135.10"
+      - "🇸🇬 新加坡-139.180.212.225"
+      - "🇸🇬 新加坡-139.180.220.7"
+      - "🇹🇼 台湾-140.235.38.78"
+      - "🇰🇷 韩国-140.238.5.86"
+      - "🇰🇷 韩国-140.238.30.217"
+      - "🇰🇷 韩国-141.164.34.161"
+      - "🇯🇵 日本-142.91.109.211"
+      - "🇹🇼 台湾-142.249.60.51"
+      - "🇭🇰 香港-143.20.156.116"
+      - "🇬🇧 英国-143.110.163.137"
+      - "🇺🇸 美国-144.172.111.252"
+      - "🇺🇸 美国-144.225.255.169"
+      - "🇰🇷 韩国-146.56.151.92"
+      - "🇰🇷 韩国-146.56.167.171"
+      - "🇰🇷 韩国-146.56.187.1"
+      - "🇰🇷 韩国-146.56.188.74"
+      - "🇺🇸 美国-148.135.86.154"
+      - "🇭🇰 香港-149.104.24.57"
+      - "🇯🇵 日本-150.230.210.236"
+      - "🇹🇼 台湾-151.242.188.249"
+      - "🇹🇼 台湾-151.242.189.162"
+      - "🇸🇬 新加坡-152.42.161.156"
+      - "🇺🇸 美国-152.53.81.176"
+      - "🇰🇷 韩国-152.67.210.234"
+      - "🇺🇸 美国-152.67.233.61"
+      - "🇰🇷 韩国-152.69.229.110"
+      - "🇰🇷 韩国-152.70.239.74"
+      - "🇺🇸 美国-154.7.183.116"
+      - "🇺🇸 美国-154.23.163.105"
+      - "🇺🇸 美国-155.254.127.3"
+      - "🇷🇺 俄罗斯-157.22.185.45"
+      - "🇸🇬 新加坡-157.228.130.240"
+      - "🇰🇷 韩国-158.247.201.201"
+      - "🇰🇷 韩国-158.247.224.240"
+      - "🇺🇸 美国-159.54.182.204"
+      - "🇬🇧 英国-159.65.81.106"
+      - "🇺🇸 美国-159.65.105.231"
+      - "🇷🇺 俄罗斯-159.194.230.89"
+      - "🇸🇬 新加坡-159.223.33.4"
+      - "🇯🇵 日本-161.33.15.101"
+      - "🇯🇵 日本-161.33.29.51"
+      - "🇯🇵 日本-161.33.172.160"
+      - "🇬🇧 英国-161.35.170.151"
+      - "🇺🇸 美国-161.35.232.123"
+      - "🇺🇸 美国-162.243.115.23"
+      - "🇬🇧 英国-165.232.32.168"
+      - "🇺🇸 美国-165.232.54.102"
+      - "🇬🇧 英国-165.232.108.151"
+      - "🇸🇬 新加坡-165.232.175.180"
+      - "🇬🇧 英国-167.71.139.172"
+      - "🇯🇵 日本-168.138.52.221"
+      - "🇸🇬 新加坡-168.144.109.68"
+      - "🇺🇸 美国-170.106.171.202"
+      - "🇺🇸 美国-172.86.72.69"
+      - "🇯🇵 日本-172.237.5.76"
+      - "🇯🇵 日本-172.237.7.216"
+      - "🇸🇬 新加坡-178.128.125.147"
+      - "🇯🇵 日本-178.214.214.56"
+      - "🇺🇸 美国-179.255.185.126"
+      - "🇷🇺 俄罗斯-185.84.162.74"
+      - "🇷🇺 俄罗斯-185.170.10.170"
+      - "🇺🇸 美国-185.234.145.124"
+      - "🇷🇺 俄罗斯-188.225.45.209"
+      - "🇹🇼 台湾-188.253.6.249"
+      - "🇷🇺 俄罗斯-191.44.37.141"
+      - "🇰🇷 韩国-193.122.96.190"
+      - "🇰🇷 韩国-193.122.115.184"
+      - "🇰🇷 韩国-193.123.236.206"
+      - "🇷🇺 俄罗斯-193.233.90.91"
+      - "🇸🇬 新加坡-194.127.192.138"
+      - "🇬🇧 英国-194.147.88.33"
+      - "🇯🇵 日本-200.180.163.38"
+      - "🇷🇺 俄罗斯-201.34.136.83"
+      - "🇺🇸 美国-202.5.16.17"
+      - "🇯🇵 日本-202.144.194.101"
+      - "🇬🇧 英国-206.189.21.73"
+      - "🇸🇬 新加坡-207.148.71.119"
+      - "🇺🇸 美国-208.68.180.65"
+      - "🇬🇧 英国-213.165.42.90"
+      - "🇯🇵 日本-216.23.84.115"
+      - "🇸🇬 新加坡-217.15.167.34"
+      - "🇸🇬 新加坡-217.216.109.249"
+rules:
+  - GEOIP,CN,DIRECT
+  - MATCH,🚀 节点选择
